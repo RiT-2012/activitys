@@ -1,25 +1,34 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width">
-        <title>replit</title>
-        <link href="style.css" rel="stylesheet" type="text/css"/> 
-    </head>
-    <body>
-        <form>
-            <fieldset>
-                <legend>Personal Info:</legend>
-                <label>Full Name:</label>
-                <input type="text" id="fname" placeholder="Enter Name"><br><br>
-                <label>Email:</label>
-                <input type="text" id="email"><br><br>
-                <label>Gender:</label>
-                <input type="radio" id="gender" value="female">Female<br>
-                <input type="raido" id="gender" value="male">Male<br><br>
-                <label>Birthday:</label>
-                <input type="date" id="birthday" name="birthday"><br><br>
-                </fieldset>
-        </form>
+        <style>
+            div{
+                background-color: #4CAF50;
+                padding: 10px;
+            }
+
+            div.first{
+                opacity: 0.1;
+            }
+            div.second{
+                opacity: 0.3;
+            }
+            div.third{
+                opacity: 0.6;
+            }
+
+
+        </style>
+        </head>
+        <body>
+            <h1>
+                The opacity Property
+            </h1>
+            <p>This is how this property looks:</p>
+            <div class="first"><p>opacity 0.1</p></div>
+            <div class="second"><p>opacity 0.3</p></div>
+            <div class="third"><p>opacity 0.6</p></div>
+            <div><p>opacity 1(default)</p></div>
+
         </body>
         </html>
